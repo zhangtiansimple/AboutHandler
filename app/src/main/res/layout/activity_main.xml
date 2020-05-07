@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:textAllCaps="false"
         android:id="@+id/btn_main"
         android:text="主线程使用Handler"
         android:layout_width="220dp"
@@ -18,6 +19,7 @@
         app:layout_constraintVertical_bias="0.1" />
 
     <Button
+        android:textAllCaps="false"
         android:id="@+id/btn_update"
         android:text="子线程能否更新UI"
         android:layout_width="220dp"
@@ -29,6 +31,8 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <Button
+        android:id="@+id/btn_sub"
+        android:textAllCaps="false"
         android:text="子线程使用Handler"
         android:layout_width="220dp"
         android:layout_height="48dp"
@@ -37,5 +41,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btn_handler_thread"
+        android:textAllCaps="false"
+        android:text="HandlerThread"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="源码分析"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="常见面试题"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="手写Handler"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

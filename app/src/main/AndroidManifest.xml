@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".HandlerForMainThreadActivity"/>
         <activity android:name=".SubThreadUpdateUIActivity"/>
+        <activity android:name=".HandlerForSubThreadActivity"/>
+        <activity android:name=".HandlerThreadActivity"/>
+        <activity android:name=".CustomHandlerActivity"/>
     </application>
 
 </manifest>

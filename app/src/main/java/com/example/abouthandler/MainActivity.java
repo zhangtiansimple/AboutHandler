@@ -24,6 +24,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(SubThreadUpdateUIActivity.class);
             }
         });
+        findViewById(R.id.btn_sub).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(HandlerForSubThreadActivity.class);
+            }
+        });
+        findViewById(R.id.btn_handler_thread).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(HandlerThreadActivity.class);
+            }
+        });
     }
 
     private void startActivity(Class cls) {
