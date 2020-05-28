@@ -66,6 +66,7 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
+        android:id="@+id/btn_normal_question"
         android:textAllCaps="false"
         android:text="常见面试题"
         android:layout_width="220dp"
@@ -77,6 +78,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
+        android:id="@+id/btn_my_handler"
         android:textAllCaps="false"
         android:text="手写Handler"
         android:layout_width="220dp"

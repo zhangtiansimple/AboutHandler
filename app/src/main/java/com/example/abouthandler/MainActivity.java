@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.abouthandler.myhandler.MyHandlerActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -34,6 +36,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(HandlerThreadActivity.class);
+            }
+        });
+
+        findViewById(R.id.btn_normal_question).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(HandlerNormalQuestionActivity.class);
+            }
+        });
+        findViewById(R.id.btn_my_handler).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(MyHandlerActivity.class);
             }
         });
     }
